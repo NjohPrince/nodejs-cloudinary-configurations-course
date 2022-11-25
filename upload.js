@@ -22,10 +22,12 @@ cloudinary.uploader
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
+// VIDEO RESOURCE
 // cloudinary.uploader.upload("./assets/dog.mp4", {resource_type: "video", public_id: "dog"})
 // 	.then(result => {console.log(result)})
 // 	.catch(error => {console.log(error)});
 
+// FONT RESOURCE
 // cloudinary.uploader.upload("./assets/BLKCHCRY.TTF",
 // 	{resource_type: "raw", use_filename: true, unique_filename: false})
 // 	.then(result => {console.log(result)})
