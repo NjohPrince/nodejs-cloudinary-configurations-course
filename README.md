@@ -2,6 +2,8 @@
 
 This is an introductory course into cloudinary for NodeJS Developers
 
+*<b>DISCLAIMER: </b>* This repo is derived from the cloudinary training program verifiable at this github repository: [cloudinary training program](https://github.com/cloudinary-training/cld-intro-nodejs). You can find all the source code in that repository. This is for practical and learning purposes and to help explain/emphasize on more aspects of working with Cloudinary and NodeJS.
+
 *<b>NOTE: </b>* You can download or clone this repo (after which you will run `npm install` or `npm i` to install the neccessary packages for running and testing the project. Then run `npm start` on your terminal to start the server, which can then be accessible on the following URL: `http://localhost:3000`) or if you want to follow the steps in setting up your own: below is a quick guide on how to do so.
 
 ## Setup and Installation
@@ -38,3 +40,19 @@ These are used for communicating with cloudinary's API and signing your requests
 - Create a `.env` file within the root of your application.
 - Store the following variable inside yout .env file: `CLOUDINARY_URL=<get and paste your cloudinary url here>`. Please remove these `<` and `>` when storing your secret.
 - Create a `.gitignore` file in your project and add `.env` into it as done within the .gitignore file in this repository so as to avoid pushing this unto Github for those using it.
+- Next install the cloudinary package using `npm i cloudinary`.
+
+## Testing Credentials Setup
+
+- Create a `testCredentials.js` and populate the file with the following code:
+
+```js
+    require("dotenv").config();
+    const cloudinary = require("cloudinary").v2;
+
+    console.log(cloudinary.config().cloud_name);
+    console.log(cloudinary.config().api_key);
+    console.log(cloudinary.config().api_secret);
+```
+
+To test if your credentials have been properly configured/store please run the following command: `node testCredentials.js` and you should see your credentials being logged out.

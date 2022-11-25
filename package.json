@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-cloudinary-configurations-course",
+  "version": "1.0.0",
+  "description": "This is an introductory course into cloudinary for NodeJS Developers",
+  "main": "testCredentials.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NjohPrince/nodejs-cloudinary-configurations-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NjohPrince/nodejs-cloudinary-configurations-course/issues"
+  },
+  "homepage": "https://github.com/NjohPrince/nodejs-cloudinary-configurations-course#readme",
+  "dependencies": {
+    "cloudinary": "^1.32.0",
+    "dotenv": "^16.0.3"
+  }
+}
