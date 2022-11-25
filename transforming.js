@@ -2,6 +2,7 @@ require("dotenv").config();
 const cloudinary = require("cloudinary").v2;
 
 //DOCS: https://cloudinary.com/documentation/image_transformations
+// please run transforming_prerequisites.js before running this file
 
 // Resize an asset
 console.log(
