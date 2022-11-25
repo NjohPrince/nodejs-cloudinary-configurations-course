@@ -4,7 +4,7 @@ This is an introductory course into cloudinary for NodeJS Developers
 
 *<b>DISCLAIMER: </b>* This repo is derived from the cloudinary training program verifiable at this github repository: [cloudinary training program](https://github.com/cloudinary-training/cld-intro-nodejs). You can find all the source code in that repository. This is for practical and learning purposes and to help explain/emphasize on more aspects of working with Cloudinary and NodeJS.
 
-*<b>NOTE: </b>* You can download or clone this repo (after which you will run `npm install` or `npm i` to install the neccessary packages for running and testing the project. Then run `npm start` on your terminal to start the server, which can then be accessible on the following URL: `http://localhost:3000`) or if you want to follow the steps in setting up your own: below is a quick guide on how to do so.
+*<b>NOTE: </b>* You can download or clone this repo (after which you will run `npm install` or `npm i` to install the neccessary packages for running and testing the project.) or if you want to follow the steps in setting up your own: below is a quick guide on how to do so.
 
 ## Setup and Installation
 
