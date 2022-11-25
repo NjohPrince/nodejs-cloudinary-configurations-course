@@ -1,4 +1,4 @@
-## NodeJS Cloudinary
+## NodeJS & Cloudinary API
 
 This is an introductory course into cloudinary for NodeJS Developers
 
@@ -12,7 +12,7 @@ This is an introductory course into cloudinary for NodeJS Developers
 
 ## Setting up a NodeJS Project
 
-- Follow this link for more insights: [setting up a modejs project](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)
+- Follow this link for more insights: [setting up a nodejs project](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)
 
 ## Cloudinary Account
 
