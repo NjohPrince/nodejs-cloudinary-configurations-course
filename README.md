@@ -56,3 +56,7 @@ These are used for communicating with cloudinary's API and signing your requests
 ```
 
 To test if your credentials have been properly configured/store please run the following command: `node testCredentials.js` and you should see your credentials being logged out.
+
+## Running the Examples in this Repo
+
+- For any example you wish to run simply copy the code within that given file and paste in your own project and run it following the same command as above replacing `testCredentials` with the filename you are trying to run.
